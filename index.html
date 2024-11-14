@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Comment Section</title>
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 py-10">
+
+  <div class="container mx-auto max-w-2xl p-6 bg-white rounded shadow-lg">
+    <h1 class="text-2xl font-bold mb-6">Comment Section</h1>
+
+    <div id="comments-container"></div>
+
+    <div class="mt-6">
+      <textarea id="new-comment" placeholder="Add a comment..." rows="3" class="w-full p-2 border border-gray-300 rounded"></textarea>
+      <div class="flex justify-between">
+        <button id="add-comment" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded">Add Comment</button>
+        <span id="char-count" class="mt-2 text-gray-500">0/250</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
